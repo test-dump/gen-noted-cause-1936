@@ -1,0 +1,33 @@
+Here are the instructions to create a "hello world" console application in C#:
+
+1. Open Visual Studio (VS) on your system. If you haven't installed it, you can download it from the official Microsoft website.
+
+2. After you open VS, click on `Create a new project`.
+
+3. In the `New Project` dialog box, set the `Language` field to C#, set the `Platform` field to `Windows`, and set the `Project type` field to `Console`. This will narrow down the choices.
+
+4. Choose `Console App (.NET Core)` from the provided options and click on `Next`.
+
+5. Next, you'll decide the project's `Name` and `Location` (where the files related to the project will be saved on your system), and click on `Create`.
+
+6. After the project is created, find the `Program.cs` file in the project hierarchy in the `Solution Explorer` (usually found at the side in the upper right corner). If it's not already open, double click the file to open it.
+
+7. You'll see some code already present in the file. Look for the line `static void Main(string[] args)`; this is the entry point of the program.
+
+8. Inside the Main method, add the following code: `Console.WriteLine("Hello World!");`
+
+   Your `Main` method should look like:
+```C#
+static void Main(string[] args)
+{
+   Console.WriteLine("Hello World!");
+}
+```
+
+9. Save the file by pressing `CTRL + S` or going to `File -> Save All`.
+
+10. To run the application, press the `F5` key or go to `Debug -> Start Debugging`.
+
+11. A console window will open up displaying the text `Hello World!`.
+
+Congratulations, you have created a simple "Hello World" application in C#. Remember to close the console window after you're done.
